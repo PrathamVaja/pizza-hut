@@ -1,0 +1,45 @@
+.logo_name {
+    font-family: "Fugaz One", sans-serif;
+    color: #EE3A43;
+}
+
+.nav_li {
+font-family: "Fugaz One", sans-serif;
+font-weight: 300;
+}
+
+.nav_li>.active {
+    color: #EE3A43;
+}
+
+.home_banner_text{
+    font-family: "Fredoka", sans-serif;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    background-color: black !important;
+    
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #F3274C !important;
+}
