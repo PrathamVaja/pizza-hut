@@ -3,6 +3,7 @@ import SwiperSlider from './SwiperSlider'
 import Category from './Category'
 import Card from './Card'
 
+
 const Hero = () => {
     return (
         <>
@@ -36,18 +37,15 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div>
-                    <SwiperSlider/>
-                </div>
 
+                <SwiperSlider />
 
-                <div>
-                    <Category/>
-                </div>
+                <Category />
 
-                <div>
-                    <Card/>
-                </div>
+                <Card />
+
+                
+
             </div>
 
 

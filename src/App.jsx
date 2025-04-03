@@ -1,6 +1,8 @@
 
 import './App.css'
 import Home from './Pages/Home'
+import Explore from './Pages/Explore'
+import { Route, Routes } from 'react-router-dom'
 
 
 
@@ -9,11 +11,11 @@ function App() {
 
   return (
     <>
-      <div className=' bg-white'>
-        <Home />
-       
-       
-      </div>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/explore' element={<Explore />} />
+      </Routes>
+
    
     </>
   )

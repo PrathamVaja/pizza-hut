@@ -70,7 +70,7 @@ const Card = () => {
 
     return (
         <>
-            <div className='bg-[#F5F8FD]   mt-[80px]'>
+            <div className='bg-[#F5F8FD]   mt-[80px] pt-[100px] pb-[80px]'>
 
 
                 <div className='w-full flex justify-center '>

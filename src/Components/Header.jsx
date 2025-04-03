@@ -30,7 +30,7 @@ const Header = () => {
                 <div className='hidden lg:block'>
                     <ul className='flex space-x-6'>
                         <li className='nav_li font-bold'><NavLink to="/">Home</NavLink></li>
-                        <li className='nav_li font-bold'><NavLink to="/menu">Menu</NavLink></li>
+                       
                         <li className='nav_li font-bold'><NavLink to="/explore">Explore</NavLink></li>
                         <li className='nav_li font-bold'><NavLink to="/reserve">Reserve Table</NavLink></li>
                         <li className='nav_li font-bold'><NavLink to="/order">Order Now</NavLink></li>
@@ -55,7 +55,7 @@ const Header = () => {
                 <div className={`fixed top-0 left-0 w-full h-full bg-white flex flex-col items-center justify-center space-y-6 lg:hidden z-40 transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0' : '-translate-y-full'}`}>
                     <ul className='flex flex-col items-center gap-5 text-xl font-bold'>
                         <li className='nav_li'><NavLink to="/" onClick={() => setMenuOpen(false)}>Home</NavLink></li>
-                        <li className='nav_li'><NavLink to="/menu" onClick={() => setMenuOpen(false)}>Menu</NavLink></li>
+                      
                         <li className='nav_li'><NavLink to="/explore" onClick={() => setMenuOpen(false)}>Explore</NavLink></li>
                         <li className='nav_li'><NavLink to="/reserve" onClick={() => setMenuOpen(false)}>Reserve Table</NavLink></li>
                         <li className='nav_li'><NavLink to="/order" onClick={() => setMenuOpen(false)}>Order Now</NavLink></li>

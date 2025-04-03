@@ -3,6 +3,8 @@ import Header from '../Components/Header'
 import Banner from '../Components/Banner'
 import Hero from '../Components/Hero'
 import Cooks from '../Components/Cooks'
+import Footer from '../Components/Footer'
+
 
 const Home = () => {
   return (
@@ -11,7 +13,7 @@ const Home = () => {
       <Banner />
       <Hero />
       <Cooks/>
-      
+      <Footer />
     </>
   )
 }

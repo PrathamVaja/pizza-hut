@@ -43,3 +43,18 @@ font-weight: 300;
 .swiper-pagination-bullet-active {
     background-color: #F3274C !important;
 }
+
+
+
+@media (max-width:1400px){
+    .foot_corner{
+        display: none;
+    }
+}
+
+@media (max-width:1100px){
+    .footer_list{
+        flex-direction: column;
+        
+    }
+}

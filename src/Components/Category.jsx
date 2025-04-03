@@ -28,7 +28,7 @@ const Category = () => {
                         className={`w-[50px] h-[50px] transition-all duration-300 ${selectedIndex === index ? "invert brightness-0" : ""
                             }`}
                         
-                        style={{color:"green"}}
+                        
                     />
 
 
