@@ -68,7 +68,7 @@ const Footer = () => {
                                     </li>
 
                                     <li><NavLink to="/fredokaone"> <span className=' flex items-center gap-2 pb-4 text-[18px]'> Get recent news and updates. </span> </NavLink></li>
-                                    <li><NavLink to="/menu"> <input className='bg-white mb-[20px] w-auto sm:w-[320px] h-[60px] border-2 rounded-[10px] border-[#DEDEDE] pl-[30px]' placeholder='Email Address' type="text" />  </NavLink></li>
+                                    <li> <input className='bg-white mb-[20px] w-auto sm:w-[320px] h-[60px] border-2 rounded-[10px] border-[#DEDEDE] pl-[30px]' placeholder='Email Address' type="text" />  </li>
                                     <li>
                                         <NavLink to="/reserve">
                                             <div className='w-[107px] h-[63px] border-3 border-[#F3274C]  rounded-[12px] ml-[30px] '>
