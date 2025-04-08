@@ -26,11 +26,12 @@ const ExpBanner = () => {
             <div className='relative flex justify-center md:justify-end w-full mt-6 md:mt-0'>
 
                 {/* Main Burger Image */}
-                <img className='w-full max-w-[400px] xl:mr-[100px] lg:max-w-[600px] object-cover' src="./images/bargar_banner.png" alt="Burger" />
+                <img className='w-full max-w-[400px] xl:mr-[100px] lg:max-w-[600px] object-cover' src="images/bargar_banner.png" alt="Burger" />
 
                 {/* Discount Image */}
                 <div className=' hidden md:block absolute  bottom-[80px] xl:mr-[600px] w-[130px] '>
-                    <img src="./images/discount.png" alt="" />
+                    <img src="images/discount.png" alt="" />
+                    
                 </div>
             </div>
         </div>

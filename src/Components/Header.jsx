@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import '../css/style.css';
 import { NavLink } from 'react-router-dom';
 import { IoMdMenu, IoMdClose } from 'react-icons/io';
+import { CartContext } from './AddtoCartContext';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+
+    const [cart,setCart] = useState(0)
 
     useEffect(() => {
         if (menuOpen) {
@@ -14,6 +17,10 @@ const Header = () => {
         }
        
     }, [menuOpen]);
+
+    const { cartItem } = useContext(CartContext)
+    console.log(cartItem);
+    
 
     return (
         <>
@@ -37,10 +44,12 @@ const Header = () => {
                     </ul>
                 </div>
 
-                <div className='hidden lg:flex items-center gap-[20px] mr-5'>
-                    <div>
-                        <img className='w-full h-full' src='./icons/cart.png' alt='Cart' />
+                <div className=' hidden lg:flex items-center gap-[20px] mr-5'>
+                    <div className='relative'>
+                        <img className='w-7 h-7' src='./icons/cart.png' alt='Cart' />
+                        <div className='absolute w-4 h-4 top-0 right-0 text-white bg-black flex justify-center items-center rounded-full '>{cartItem.length} </div>
                     </div>
+
                     <span className='bg-[#FFC222] text-white font-bold flex items-center justify-center rounded-[7px] w-[120px] h-[40px]'>
                         <NavLink to='/contact'>Contact Us</NavLink>
                     </span>

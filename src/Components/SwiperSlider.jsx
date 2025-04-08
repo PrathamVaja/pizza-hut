@@ -9,7 +9,6 @@ import 'swiper/css/pagination';
 
 import '../css/style.css';
 
-// import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 export default function SwiperSlider() {
