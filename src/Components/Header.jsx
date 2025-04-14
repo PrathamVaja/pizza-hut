@@ -46,7 +46,7 @@ const Header = () => {
 
                 <div className=' hidden lg:flex items-center gap-[20px] mr-5'>
                     <div className='relative'>
-                        <img className='w-7 h-7' src='./icons/cart.png' alt='Cart' />
+                        <NavLink to={'/cart'}> <img className='w-7 h-7' src='./icons/cart.png' alt='Cart' /> </NavLink>
                         <div className='absolute w-4 h-4 top-0 right-0 text-white bg-black flex justify-center items-center rounded-full '>{cartItem.length} </div>
                     </div>
 
