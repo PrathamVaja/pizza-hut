@@ -14,8 +14,6 @@ const OrderNow = () => {
 
                 <ItemCard/>
 
-               
-              
                 <Footer />
             </div>
 
