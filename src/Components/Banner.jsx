@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <>
             <div className='h-screen'>
-                <div className='  bg-[url(./images/home_banner.png)] flex flex-col md:flex-row w-full h-screen bg-cover bg-right'>
+                <div className='  bg-[url(/images/home_banner.png)] flex flex-col md:flex-row w-full h-screen bg-cover bg-right'>
                     
 
                     <div className='text-white w-full text-center pt-[80px] sm:text-start md:w-[70%]  sm:pl-[100px] md:pt-[100px]'>
