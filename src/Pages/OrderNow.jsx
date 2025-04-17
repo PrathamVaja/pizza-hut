@@ -1,24 +1,28 @@
-import React from 'react'
-import Header from '../Components/Header'
-import Cooks from '../Components/Cooks'
-import Footer from '../Components/Footer'
-import Card from '../Components/Card'
-import ExpHero from '../Components/ExploreComponents/ExpHero'
-import ItemCard from '../Components/OrederNowComponents/ItemCard'
+import React from "react";
+import Header from "../Components/Header";
+
+import Footer from "../Components/Footer";
+import ItemCard from "../Components/OrederNowComponents/ItemCard";
+import { Helmet } from "react-helmet";
 
 const OrderNow = () => {
-    return (
-        <>
-            <div>
-                <Header />
+  return (
+    <>
+      <Helmet>
+        <title>Oreder now</title>
+        <meta name="description" content="Oreder now" />
+        <meta name="keywords" content="Oreder now Page,awesome website,react" />
+        <meta name="author" content="Pratham Vaja" />
+      </Helmet>
+      <div>
+        <Header />
 
-                <ItemCard/>
+        <ItemCard />
 
-                <Footer />
-            </div>
+        <Footer />
+      </div>
+    </>
+  );
+};
 
-        </>
-    )
-}
-
-export default OrderNow
+export default OrderNow;
