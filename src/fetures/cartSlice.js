@@ -15,7 +15,8 @@ export const cartSlice = createSlice({
       const find = state.cart.findIndex(
         (item) => item.name === action.payload.name
       );
-
+     
+      
       if (find >= 0) {
         state.cart[find].quentity += 1;
       } else {
@@ -26,9 +27,9 @@ export const cartSlice = createSlice({
     getCartTotal: (state) => {
       let { totalPrice, totalQuentity } = state.cart.reduce(
         (totalValue, item) => {
+         
           let itemValue = item.price * item.quentity;
-          console.log(itemValue);
-
+          
           totalValue.totalPrice += itemValue;
           totalValue.totalQuentity += item.quentity;
 
