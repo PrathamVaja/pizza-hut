@@ -4,7 +4,7 @@ import Button from './Button';
 
 const ExpBanner = () => {
     return (
-        <div className='w-full h-auto md:h-[650px] flex flex-col md:flex-row items-center justify-center bg-cover bg-[url(./images/banner_back.png)] px-4 md:px-10 lg:px-20'>
+        <div className='w-full h-auto md:h-[650px] flex flex-col md:flex-row items-center justify-center bg-cover bg-[url(/images/banner_back.png)] px-4 md:px-10 lg:px-20'>
 
             {/* Left Content  */}
             <div className='text-white text-center mt-[30px] md:mt-0  md:text-left max-w-md'>
