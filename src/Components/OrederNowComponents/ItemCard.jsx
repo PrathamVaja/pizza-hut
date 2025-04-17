@@ -10,7 +10,7 @@ const ItemCard = () => {
   return (
     <>
       <div className="  ">
-        <div className=" w-full h-auto bg-[url(./images/pinkbackground.png)]   pt-[80px] pb-[100px] sm:px-[20px] lg:px-[100px] ">
+        <div className=" w-full h-auto bg-[url(/images/pinkbackground.png)]   pt-[80px] pb-[100px] sm:px-[20px] lg:px-[100px] ">
           <p className=" home_banner_text text-4xl text-center font-[550] ">
             Farm Fresh Products
           </p>
