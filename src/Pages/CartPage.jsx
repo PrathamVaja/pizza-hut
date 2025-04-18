@@ -29,7 +29,7 @@ const CartPage = () => {
         <meta name="author" content="Pratham Vaja" />
       </Helmet>
 
-      <div className="w-full min-h-screen bg-gradient-to-br from-pink-100 to-pink-200 p-4">
+      <div className="w-full min-h-screen   bg-[url(/images/Section.png)] bg-cover p-4">
         <div className="flex justify-center mb-8">
           <NavLink
             to="/order"
@@ -45,7 +45,7 @@ const CartPage = () => {
             {cart.map((item, i) => (
               <div
                 key={i}
-                className="flex flex-col sm:flex-row items-center bg-white shadow-lg rounded-xl overflow-hidden transition-transform duration-300 hover:scale-[1.01]"
+                className="flex flex-col sm:flex-row items-center  bg-white overflow-auto rounded-xl  transition-transform duration-300 hover:scale-[1.01]"
               >
                 <div
                   onClick={() => dispatch(deleteItem(item))}
